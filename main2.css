@@ -1,0 +1,28 @@
+/* Aqui esta la de celular 1ero*/
+.column{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    margin: 10px 0;
+}
+
+/*Media Queries*/
+
+/*Ahora vamos con las tablets*/
+@media (min-width:768px) {
+    .column{
+        background-color: #e84618;
+        width: 30%;
+        margin: 10px;
+    }
+}
+
+/*Ahora vamos con lo que sea mas grande que tablets*/
+/*Fijate que se sobreescribe, por eso no necesitas repetir codigo*/
+@media (min-width:992px) {
+    .column{
+        background-color: #0997d3;
+   
+    }
+}
